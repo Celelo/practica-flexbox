@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    flex-direction: row-reverse;
+}
+
+.conteiner-global {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.conteiner-header {
+    background-color:  #ffc9ff;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.conteiner-main {
+    display: flex;
+    justify-content: center;
+    padding: 180px 0px;
+}
+
+.conteiner-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff99ff;
+    width: 20%;
+}
+
+.conteiner-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #cb87f6;
+    padding: 30px 0px;
+}
